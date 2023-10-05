@@ -79,9 +79,8 @@
 	"gridUnits": "yd",
 	"primaryTokenAttribute": "HP",
 	"secondaryTokenAttribute": "FP",
-	"url": "https://github.com/crnormand/gurps",
-	"manifest": "https://raw.githubusercontent.com/crnormand/gurps/release/system.json",
-	"download": "https://github.com/crnormand/gurps/archive/0.16.6.zip",
+  "url": "https://github.com/dsalexan/gurps-december-fork-mk3",
+  "manifest": "https://raw.githubusercontent.com/dsalexan/gurps-december-fork-mk3/december/system.json",
 	"socket": true,
 	"license": "LICENSE.txt"
 }

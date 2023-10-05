@@ -1431,6 +1431,14 @@ export class GurpsActorSheet extends ActorSheet {
         onclick: ev => this._onOpenEditor(ev),
       })
     }
+    
+    b.push({
+      label: `Mobile`,
+      class: `mobile`,
+      icon: `fas fa-mobile`,
+      onclick: ev => this.actor.openSheet(`gurps.MobileGurpsActorSheet`),
+    })
+    
     return b
   }
 
@@ -1714,8 +1722,8 @@ export class GurpsActorEditorSheet extends GurpsActorSheet {
 
   //TODO: Don't let user change the sheet in case of user having limited access and the sheet is left in editor mode by someone else
 
-  getData() {
-    const sheetData = super.getData()
+  getData(options) {
+    const sheetData = super.getData(options)
     sheetData.isEditing = true
     return sheetData
   }

@@ -48,7 +48,7 @@ Object.defineProperty(Actor.prototype, 'temporaryEffects', {
 /**
  * The purpose of this class is to help generate data that can be used in an ActiveEffect.
  */
-class Maneuver {
+export class Maneuver {
   static filepath = 'systems/gurps/icons/maneuvers/'
   /**
    * @param {_data} data
